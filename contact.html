@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <img src="menu.jpg" alt="menu" usemap="#workspace" >
+        <map name="workspace">
+            <area shape="rect" coords="638,6,732,49" href="index.html" alt="blog">
+            <area shape="rect" coords="730,3,810,47" href="cv.html" alt="cv">
+            <area shape="rect" coords="811,1,890,46" href="#" alt="contact">
+        </map>
+    </nav>
+    <header ><img src="bannière.jpg" alt=""></header>
+    <form style="width: 900px;">
+        <fieldset>
+            <legend>contactez moi</legend>
+            <table>
+                <tr><td><label for="">sevilite</label><input type="radio" name="title" value="Monsieur" checked> Monsieur
+                    <input type="radio" name="title" value="Madame"> Madame
+                    <input type="radio" name="title" value="Mademoiselle"> Mademoiselle</td></tr>
+                    <tr>
+                        <td><label for="">nom: </label><input type="text" name="n" id="" required>
+                            <label for="">prenom</label><input type="text" name="p" id="" required></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="">email</label><input type="email" name="m" id="" required>
+                            <label for="">telephone</label><input type="tel" name="t" id="" required pattern="9{1}[0-9]{7}" maxlength="8">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="">sujet : </label><input type="text" placeholder="votre sujet" name="s" id="" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="">message</label></td>
+                        
+                    </tr>
+                    <tr>
+                        <td><textarea name="mess" id="" required></textarea></td>
+                    </tr>
+                    <tr>
+                        <td><input type="submit" value="envoyer"> <input type="reset" value="annuler" name="" id=""></td>
+                    </tr>
+            </table>
+           
+    
+</fieldset>
+</form>
+<footer>
+    ahmed tounsi 2022
+</footer>
+</body>
+</html>
